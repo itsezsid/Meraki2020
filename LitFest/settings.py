@@ -26,7 +26,7 @@ SECRET_KEY = 'ay5@c+&li-!!7caju19ue-i_)f4i7&7^3-@pyado^+(&w06y6d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['meraki2020.azurewebsites.net','127.0.0.1']
+ALLOWED_HOSTS = ['meraki2020.azurewebsites.net', '127.0.0.1']
 
 
 # Application definition
@@ -118,8 +118,8 @@ USE_L10N = True
 
 USE_TZ = True
 
-EMAIL_USE_TLS   = True
-EMAIL_HOST      = 'smtp.gmail.com'
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'dps.it.council@gmail.com'
 EMAIL_HOST_PASSWORD = 'ItCouncilDps'
 EMAIL_PORT = 587
